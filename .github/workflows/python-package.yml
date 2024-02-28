@@ -1,11 +1,6 @@
-# 苦力怕论坛 自动签到
-# GitHub: https://github.com/xyz8848/KLPBBS_auto_sign_in
-
-name: 'KLPBBS Auto Sign in'
+name: 'KLPBBS Auto'
 
 on:
-  schedule:
-    - cron: '8 16 * * *' # 签到时间（注意时差！）
   workflow_dispatch:
 
 jobs:
