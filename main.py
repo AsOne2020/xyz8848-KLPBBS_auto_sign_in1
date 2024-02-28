@@ -127,7 +127,7 @@ def email_notice(msg):
     message['From'] = mail_username
     message['To'] = mail_to
     message['Subject'] = msg
-    body = f"{msg}<br><br>Powered by <a href='https://github.com/xyz8848/KLPBBS_auto_sign_in'>https://github.com/xyz8848/KLPBBS_auto_sign_in</a>"
+    body = f"{msg}<br><br>咕咕咕"
     message.attach(MIMEText(body, "html"))
 
     try:
