@@ -4,8 +4,6 @@
 name: 'KLPBBS Auto Sign'
 
 on:
-  schedule:
-    - cron: '35 16 * * *' # 签到时间（注意时差！）
   workflow_dispatch:
 
 jobs:
