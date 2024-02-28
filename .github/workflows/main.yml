@@ -1,7 +1,7 @@
 # 苦力怕论坛 自动签到
 # GitHub: https://github.com/xyz8848/KLPBBS_auto_sign_in
 
-name: 'KLPBBS Auto Sign'
+name: 'KLPBBS Auto'
 
 on:
   workflow_dispatch:
